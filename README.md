@@ -19,3 +19,21 @@ The `correlate.r` script is a script that matches the currents and the microplas
 ## Other
 
 Use the density class in the microplastics and not the measurements. These are in different units and are not comparable.
+
+# Cleanup
+
+The first step was to cleanup the datasets. This was done by exploring the data itself and the summary of the single columns and also by visualizing.
+The microplastics dataset could always be double checked when visualised, as there is a visualization on the actual website.
+
+# Linking
+
+There are two different scripts to link the two datasets.
+
+1. link_by_average_current: tries to take microplastics set, then gets all its nearest neighbors and takes its average values (Note: not sure it works)
+2. link_closest_microplastic: takes the currents dataset and all the nearest neighbors of the microplastics get microplastic information, these columns on the other rows are empty (Works good for visualisation -> plot/plot_ocean_measurements.r)
+
+With these we can visualise the correlations between the sets: The amount of measurements correlates with the amount of microplastic.
+
+# NEXT STEP
+
+PLEASE CONTINUE HERE DESCRIBING WHAT YOU DID/YOUR STEPS (will help for documentation)
