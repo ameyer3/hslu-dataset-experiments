@@ -24,6 +24,7 @@ Use the density class in the microplastics and not the measurements. These are i
 
 The first step was to cleanup the datasets. This was done by exploring the data itself and the summary of the single columns and also by visualizing.
 The microplastics dataset could always be double checked when visualised, as there is a visualization on the actual website.
+-> More info also in slide of pitch.
 
 # Linking
 
